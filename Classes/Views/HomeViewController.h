@@ -29,6 +29,7 @@
     IBOutlet UIImageView *imageBackground;
     IBOutlet ADBannerView *adBannerView;
     IBOutlet UIActivityIndicatorView *activityIndicator;
+    IBOutlet UIButton *refresh;
     
     NSMutableArray *authorList;
     

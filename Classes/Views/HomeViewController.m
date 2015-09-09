@@ -155,7 +155,7 @@
 - (IBAction)RefreshData:(id)sender {
     [activityIndicator startAnimating];
     [activityIndicator setHidden:NO];
-    
+    [refresh setHidden:YES];
     [self.authPresenter getAllAuthors];
 }
 
@@ -188,6 +188,7 @@
     NSLog(@"Debug running f_load");
     [activityIndicator startAnimating];
     [activityIndicator setHidden:NO];
+    [refresh setHidden:YES];
     
     [self.authPresenter getAllAuthors];
     
@@ -235,7 +236,7 @@
 {
     [activityIndicator stopAnimating];
     [activityIndicator setHidden:YES];
-    
+    [refresh setHidden:NO];
     NSMutableArray *authorDetails = (NSMutableArray *)authorData;
     authorList = authorDetails;
     
@@ -249,7 +250,7 @@
 {
     [activityIndicator stopAnimating];
     [activityIndicator setHidden:YES];
-
+    [refresh setHidden:NO];
     NSLog(@"Getting Author Data is a success!!!!");
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Error getting Author data. Please try again." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
@@ -11,6 +11,7 @@
                 <outlet property="adBannerView" destination="mPs-3i-M2x" id="ETz-FZ-oUU"/>
                 <outlet property="imageBackground" destination="mqS-sy-Qyh" id="Buh-x2-zL4"/>
                 <outlet property="leftSettingsButton" destination="lK8-ER-jcK" id="z6p-Bb-ghv"/>
+                <outlet property="refresh" destination="mbA-cD-Bh5" id="MAG-sg-q7C"/>
                 <outlet property="view" destination="2" id="a1V-Wt-7nk"/>
             </connections>
         </placeholder>
